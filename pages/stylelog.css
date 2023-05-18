@@ -1,0 +1,122 @@
+ /*body {
+      background-color: #F5F5F5;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 50px;
+    }
+    .button {
+      display: inline-block;
+      padding: 20px 50px;
+      background-color: #4CAF50;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 5px;
+      font-size: 24px;
+      margin: 50px;
+      cursor: pointer;
+    }
+    .button-center {
+      display: inline-block;
+      padding: 50px;
+      background-color: #FFFFFF;
+      color: #000000;
+      border: none;
+      border-radius: 5px;
+      font-size: 24px;
+      margin: 50px;
+      cursor: pointer;
+    }
+    .button-top-left {
+      position: absolute;
+      top: 25%;
+      left: 25%;
+    }
+    .button-top-right {
+      position: absolute;
+      top: 25%;
+      right: 25%;
+    }
+    .button-bottom-left {
+      position: absolute;
+      bottom: 25%;
+      left: 25%;
+    }
+    .button-bottom-right {
+      position: absolute;
+      bottom: 25%;
+      right: 25%;
+    }
+
+    <div class="button-container">
+        <button class="button"><span class="button-text">Button 1</span></button>
+        <button class="button"><span class="button-text">Button 2</span></button>
+        <button class="button"><span class="button-text">Button 3</span></button>
+        <button class="button"><span class="button-text">Button 4</span></button>
+        <div class="center-button">Register Now</div>
+    </div>
+    <div class="container">
+        <a href="#" class="button button-top-left">Button 1</a>
+        <a href="#" class="button button-top-right">Button 2</a>
+        <a href="#" class="button button-bottom-left">Button 3</a>
+        <a href="#" class="button button-bottom-right">Button 4</a>
+        <a href="#" class="button button-center">Text Button</a>
+    </div>
+    */
+    html{
+      margin: auto;
+      background-image: url(../img/back.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+    }
+  body {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 26px;
+
+    
+  }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+  }
+    .button {
+  display: inline-block;
+  padding: 50px 100px;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.3s ease;
+  text-decoration: none ;
+}
+.button:hover {
+background-color: #8B0000;
+}
+.steam {
+position: absolute;
+top: 25%;
+left: 10%;
+}
+.epic {
+position: absolute;
+top: 25%;
+right: 10%;
+}
